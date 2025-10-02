@@ -264,8 +264,7 @@ public class SeleniumTest {
     
     private File findHtmlFile() {
         String[] possibleHtmlPaths = {
-            "src/main/Callbacks.html",
-            "Callbacks.html"
+            "src/main/Callbacks.html"
         };
         
         for (String htmlPath : possibleHtmlPaths) {
@@ -582,7 +581,7 @@ public class SeleniumTest {
         List<String> expectedArray = Arrays.asList("Homer", "Marge", "Bart", "Lisa", "Maggie", "Principal Skinner", "Mr Burns", "Moe", "Ned Flanders");
         
         for (String item : expectedArray) {
-            assertTrue(consoleText.contains(item), "Console output should contain " + item);
+            assertTrue("Console output should contain " + item, consoleText.contains(item));
         }
     } 
 }

@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.revature</groupId>
-  <artifactId>arraymethods</artifactId>
+  <artifactId>JS-CL-ARRAYMETHODS</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>arraymethods</name>
+  <name>JS-CL-ARRAYMETHODS</name>
   
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -76,4 +76,3 @@
     </pluginManagement>
   </build>
 </project>
-
