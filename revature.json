@@ -1,0 +1,30 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/SeleniumTest.java",
+      "testCases": [
+        {
+          "methodName": "testOriginalArray",
+          "label": "Original Simpsons array rendered",
+          "description": "Locates the element with id 'original' and asserts that its text matches the comma-separated list of the original Simpsons-related array: Homer, Marge, Bart, Lisa, Maggie, Principal Skinner, Mr Burns, Moe, Ned Flanders."
+        },
+        {
+          "methodName": "testFilteredArray",
+          "label": "Filtered array rendered",
+          "description": "Locates the element with id 'afterFilter' and asserts that its text matches the comma-separated list of the filtered array containing only Homer, Marge, Bart, Lisa, Maggie, and Moe."
+        },
+        {
+          "methodName": "testMappedArray",
+          "label": "Mapped array rendered in uppercase",
+          "description": "Locates the element with id 'afterMap' and asserts that its text matches the comma-separated list of the mapped array where all names are converted to uppercase."
+        },
+        {
+          "methodName": "testArrForEach",
+          "label": "forEach output displayed",
+          "description": "Locates the element with id 'consoleOutput' (assumed to mirror the console.log output of the forEach call) and asserts that its text contains each of the original array items: Homer, Marge, Bart, Lisa, Maggie, Principal Skinner, Mr Burns, Moe, and Ned Flanders."
+        }
+      ]
+    }
+  ]
+}
